@@ -1,0 +1,8 @@
+name: static file
+on: push
+jobs:
+  my_first_yml:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print
+        run: echo "Hello"
