@@ -4,5 +4,5 @@ jobs:
   my_first_yml:
     runs-on: ubuntu-latest
     steps:
-      - name: Print
+    - name: Print
         run: echo "Hello world"
