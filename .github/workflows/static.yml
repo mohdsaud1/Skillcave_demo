@@ -1,0 +1,8 @@
+name: static html
+on: push
+jobs:
+  my_first_yml:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print
+        run: echo "Hello world"
